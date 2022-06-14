@@ -199,3 +199,53 @@ a {
     margin-left:10%;
     margin-right:10%;
 }
+
+.footer {
+    display:flex;
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-left:auto;
+    padding-right:auto;
+    align-items: center;
+    flex-direction: column;
+    background-color: #3882F6;
+    margin-top:5%;
+    margin-left:5%;
+    margin-right:5%;
+    margin-bottom:5%
+}
+
+.signup2 {
+    display:flex;
+    background-color: #3882F6;
+    color:white;
+    border-color: white;
+    border-width: 2px;
+    border-radius:6px;
+    width:70px;
+    height:25px;
+    align-items: center;
+    justify-content: center;
+    margin-left:10%;
+
+}
+
+.footercombo {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footercombotext {
+    display:flex;
+    flex-direction: column;
+    color:white;
+    flex-wrap:nowrap;
+    font-style: normal;
+
+}
+
+.footertext {
+    display:flex;
+    font-style:normal;
+}
