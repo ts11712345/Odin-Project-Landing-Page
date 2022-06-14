@@ -163,3 +163,39 @@ a {
     width:150px;
     margin-right:2%;
 }
+
+.center {
+    display:flex;
+    background-color: #E5E7EB;
+    padding-top:125px;
+    padding-bottom:125px;
+    align-items: center;
+    flex-direction: row;
+}
+
+.quote {
+    display:flex;
+    font-size:36px;
+    font:italic;
+    color:#1F2937;
+    margin-left:10%;
+    margin-right:10%;
+}
+
+.quote2 {
+    display:flex;
+    font-weight:800;
+    font-size:32px;
+
+    
+}
+
+.centercombo {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width:auto;
+    margin-left:10%;
+    margin-right:10%;
+}
