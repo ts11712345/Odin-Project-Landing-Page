@@ -9,12 +9,16 @@ body {
     flex-direction:column;
     background-color: #1F2937;
     color:white;
+    justify-content: center;
+    padding-left:10%;
+    padding-right:10%;
 }
 
 img {
     display:flex;
     width:430px;
     height:auto;
+    padding-bottom:10%;
 }
 
 .headertop {
@@ -39,6 +43,8 @@ a {
 
 .headerlogo {
     display:flex;
+    font-size:24px;
+    color: #F9FAF8;
 }
 
 .signup {
@@ -51,4 +57,17 @@ a {
 .headercontent {
     display:flex;
     flex-direction: row;
+}
+
+.toptitle {
+    display:flex;
+    font-size:48px;
+    font-weight: 800;
+    color:#F9FAF8;
+}
+
+.topcontent {
+    display:flex;
+    font-size:18px;
+    color:#E5E7EB;
 }
