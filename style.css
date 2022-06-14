@@ -1,0 +1,54 @@
+body {
+    min-height:100vh;
+    display:flex;
+    flex-direction: column;
+}
+
+.header {
+    display:flex;
+    flex-direction:column;
+    background-color: #1F2937;
+    color:white;
+}
+
+img {
+    display:flex;
+    width:430px;
+    height:auto;
+}
+
+.headertop {
+    display:flex;
+    padding:12px;
+    justify-content: space-between;
+}
+
+ul {
+    display:flex;
+    list-style-type: none;
+    margin-top:auto;
+}
+
+li {
+    display:flex;
+}
+
+a {
+    color:white;
+}
+
+.headerlogo {
+    display:flex;
+}
+
+.signup {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:100px;
+}
+
+.headercontent {
+    display:flex;
+    flex-direction: row;
+}
